@@ -14,6 +14,7 @@ function onSpeak(e){
     chute = e.results[0][0].transcript
     exibeChuteNaTela(chute)
     verificaSeOChutePossuiUmValorValido(chute)
+    contagem ++
 }
 
 function exibeChuteNaTela(chute){
