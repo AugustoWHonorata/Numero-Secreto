@@ -1,4 +1,5 @@
 const elementoChute = document.getElementById('chute')
+var contagem = 1
 
 window.SpeechRecognition =
   window.SpeechRecognition || webkitSpeechRecognition;
